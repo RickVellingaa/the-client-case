@@ -66,3 +66,51 @@ body {
     color: var(--vini-groen);
     transition: .4s;
 }
+
+.box__advies {
+    padding: 5rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+    grid-template-rows: 1fr;
+    /* background-color: red; */
+}
+
+.box__advies section {
+    width: 13em;
+    border-radius: 17.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-color: white;
+    box-shadow: 2px 0px 10px var(--txt-color);
+    font-size: 1em;
+}
+
+@media (max-width: 1400px) {
+    .box__advies {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 1020px) {
+    .box__advies {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 780px) {
+    .box__advies {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 550px) {
+    .box__advies {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
