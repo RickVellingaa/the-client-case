@@ -14,60 +14,60 @@ body {
     height: 100vh;
 }
 
-.navigatie__bar {
+.navigation-bar {
     width: 100%;
     position: relative;
     overflow: auto;
     border-bottom: 1px solid var(--txt-color);
 }
 
-.navigatie__bar .navigatie__menu ul li {
+.navigation-bar .navigation-menu ul li {
     list-style: none;
 }
 
-.navigatie__menu {
+.navigation-menu {
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
 
-.navigatie__logo {
+.navigation-logo {
     padding: 10px;
 }
 
-.navigatie__items {
+.navigation-items {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     font-size: 15px;
 }
 
-.navigatie__items ul li a {
+.navigation-items ul li a {
     text-decoration: none;
     color: var(--txt-color);
 }
 
-.navigatie__items ul li a:visited {
+.navigation-items ul li a:visited {
     color: var(--txt-color);
 }
 
-.navigatie__items ul li a i {
+.navigation-items ul li a i {
     font-size: 21px;
 }
 
-.navigatie__items ul li a i,
-.navigatie__items ul li a {
+.navigation-items ul li a i,
+.navigation-items ul li a {
     transition: .6s;
 }
 
-.navigatie__items ul li a i:hover,
-.navigatie__items ul li a:hover {
+.navigation-items ul li a i:hover,
+.navigation-items ul li a:hover {
     color: var(--vini-groen);
     transition: .4s;
 }
 
-.box__advies {
+.box-advice {
     padding: 5rem;
     width: 100%;
     display: grid;
@@ -77,7 +77,7 @@ body {
     /* background-color: red; */
 }
 
-.box__advies section {
+.box-advice section {
     width: 13em;
     border-radius: 17.5px;
     display: flex;
@@ -92,25 +92,25 @@ body {
 }
 
 @media (max-width: 1400px) {
-    .box__advies {
+    .box-advice {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
 @media (max-width: 1020px) {
-    .box__advies {
+    .box-advice {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (max-width: 780px) {
-    .box__advies {
+    .box-advice {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 550px) {
-    .box__advies {
+    .box-advice {
         grid-template-columns: repeat(1, 1fr);
     }
 }
