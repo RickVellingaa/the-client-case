@@ -11,6 +11,7 @@
 
 body {
     font-family: Montserrat, sans-serif;
+    font-weight: normal;
     height: 100vh;
 }
 
@@ -56,6 +57,10 @@ body {
     font-size: 21px;
 }
 
+.navigation-items ul:nth-child(6){
+    padding-right: 7em;
+}
+
 .navigation-items ul li a i,
 .navigation-items ul li a {
     transition: .6s;
@@ -89,6 +94,12 @@ body {
     background-color: white;
     box-shadow: 2px 0px 10px var(--txt-color);
     font-size: 1em;
+    transition: .4s;
+}
+
+.box-advice section:hover{
+    transform: scale(1.1);
+    transition: .4s;
 }
 
 @media (max-width: 1400px) {
