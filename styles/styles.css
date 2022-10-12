@@ -97,7 +97,9 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    box-shadow: 3px 0px 10px var(--vini-geel)
 }
+
 
 .steps-advice section span{
     text-transform: uppercase;
