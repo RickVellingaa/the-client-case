@@ -61,6 +61,7 @@ body::after {
     justify-content: space-evenly;
     align-items: center;
     font-size: 15px;
+    overflow: hidden;
 }
 
 .navigation-items ul li a {
@@ -188,17 +189,45 @@ body::after {
     .box-advice {
         grid-template-columns: repeat(4, 1fr);
     }
+    body::after{
+        background-size: cover;
+        background-position: bottom;
+    }
+    body::after{
+        height: 123vh;
+        background-size: cover;
+    }
 }
 
 @media (max-width: 1020px) {
     .box-advice {
         grid-template-columns: repeat(3, 1fr);
     }
+    .steps-advice{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .steps-advice section:nth-child(1), .steps-advice section:nth-child(3) , .steps-advice section:nth-child(5){
+        margin-right: auto;
+    }
+    
+    .steps-advice section:nth-child(2), .steps-advice section:nth-child(4) , .steps-advice section:nth-child(6){
+        margin-left: auto;
+    }
+    body::after{
+        height: 153vh;
+        background-size: cover;
+    }
 }
 
 @media (max-width: 780px) {
     .box-advice {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .steps-advice section{
+        width: 23rem;
+    }
+    body::after{
+        /* background: none; */
     }
 }
 
