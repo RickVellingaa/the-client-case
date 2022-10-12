@@ -10,6 +10,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    overflow: hidden;
 }
 
 body {
@@ -151,6 +152,17 @@ body::after {
     color: var(--txt-color);
 }
 
+.fa-calendar-days{
+    padding-left: 10px;
+    font-size: 21px;
+    transition: .4s;
+}
+
+.fa-calendar-days:hover{
+    color: var(--vini-groen);
+    transition: .4s;
+}
+
 .box-advice {
     padding: 5rem;
     padding-top: 0;
@@ -197,6 +209,13 @@ body::after {
         height: 123vh;
         background-size: cover;
     }
+    .navigation-items ul:nth-child(6){
+        padding-right: 0;
+    }
+    .navigation-menu, .navigation-items, .navigation-items ul, .navigation-items ul li, .navigation-items ul li a, .navigation-items ul li a i{
+        width: 100%;
+    }
+    
 }
 
 @media (max-width: 1020px) {
@@ -228,11 +247,21 @@ body::after {
     }
     body::after{
         /* background: none; */
+        height: 215vh;
+        background-position: center;
+        background-size: cover;
     }
 }
 
 @media (max-width: 550px) {
     .box-advice {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .steps-advice section{
+        width: 20rem;
+    }
+    .steps-advice section p{
+        padding-left: .5em;
+        padding-right: .5em;
     }
 }
