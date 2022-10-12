@@ -158,8 +158,6 @@ body {
     box-shadow: 2px 0px 10px var(--vini-groen);
     font-size: 1em;
     transition: .4s;
-    font-weight: 700;
-    text-transform: uppercase;
 }
 
 .box-advice section:hover{
