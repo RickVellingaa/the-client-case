@@ -24,6 +24,8 @@ body::after {
     content: "";
     background: url('../assets/bg.svg');
     background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
     opacity: .4;
     top: 0;
     left: 0;
