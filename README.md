@@ -28,7 +28,7 @@ Bij het maken van de website heb ik gebruik gemaakt van HTML en CSS. In HTML heb
 * HTML
 * CSS
 * Photoshop
-* Ipad / Procreate
+* IPad / Procreate
 
 ## Bronnen
 
