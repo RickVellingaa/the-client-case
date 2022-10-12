@@ -23,10 +23,12 @@ Link website: https://rickvellingaa.github.io/the-client-case/
 
 ## Kenmerken
 
-Bij het maken van de website heb ik gebruik gemaakt van HTML en CSS. In HTML heb ik zoveel mogelijk rekening gehouden met de semantiek van de website. Met CSS heb ik ervoor gezorgd dat de website een goede visuele hierarchie heeft door genoeg wit ruimtes te gebruiken en een goede kleuren combinatie te gebruiken in verband met de huisstijl van Vini Mini. 
+Bij het maken van de website heb ik gebruik gemaakt van HTML en CSS. In HTML heb ik zoveel mogelijk rekening gehouden met de semantiek van de website. Met CSS heb ik ervoor gezorgd dat de website een goede visuele hierarchie heeft door genoeg wit ruimtes te gebruiken en een goede kleuren combinatie te gebruiken in verband met de huisstijl van Vini Mini. De structuur van de website heb ik voor een groot gedeelte gemaakt door gebruik te maken van grid en flexbox. 
 
 ## Bronnen
 
 Vini Mini: https://vinimini.nl/
+
 FDND Task: https://github.com/fdnd/task
+
 FDND Agency:https://github.com/fdnd-agency
