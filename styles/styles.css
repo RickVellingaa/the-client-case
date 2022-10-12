@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 :root {
+    --txt-font: 'Montserrat', sans-serif;
     --txt-color: #152a45;
     --vini-groen: #72afa6;
     --vini-geel: #f4eb34;
@@ -10,7 +13,7 @@
 }
 
 body {
-    font-family: Montserrat, sans-serif;
+    font-family: var(--txt-font);
     font-weight: normal;
     height: 100vh;
 }
@@ -72,8 +75,65 @@ body {
     transition: .4s;
 }
 
+.steps-advice{
+    padding: 2rem;
+    padding-top: 0em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    grid-template-rows: 1fr;
+}
+
+.steps-advice section{
+    /* background-color: red; */
+    width: 27em;
+    aspect-ratio: 2/.25;
+    border: 5px solid var(--vini-geel);
+    background-color: rgb(244, 235, 52, .3);
+    margin: auto;
+    color: black;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.steps-advice section span{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1em;
+    border-right: 5px solid var(--vini-geel);
+    padding-right: 3;
+}
+
+.steps-advice section p{
+    padding-left: 1em;
+}
+
+.steps-advice section:nth-child(1), .steps-advice section:nth-child(3) , .steps-advice section:nth-child(5){
+    margin-right: 0;
+}
+
+.steps-advice section:nth-child(2), .steps-advice section:nth-child(4) , .steps-advice section:nth-child(6){
+    margin-left: 0;
+}
+
+.txt-more{
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-style: normal;
+    color: var(--txt-color);
+}
+
 .box-advice {
     padding: 5rem;
+    padding-top: 0;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -88,13 +148,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    letter-spacing: 1px;
     margin: auto;
+    text-align: center;
+    border: 5px solid var(--vini-groen);
     height: auto;
     aspect-ratio: 1/1;
-    background-color: white;
-    box-shadow: 2px 0px 10px var(--txt-color);
+    background-color: rgb(114, 175, 166, .4);
+    box-shadow: 2px 0px 10px var(--vini-groen);
     font-size: 1em;
     transition: .4s;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .box-advice section:hover{
