@@ -23,10 +23,11 @@ Link website: https://rickvellingaa.github.io/the-client-case/
 
 ## Kenmerken
 
-Bij het maken van de website heb ik gebruik gemaakt van HTML en CSS. In HTML heb ik zoveel mogelijk rekening gehouden met de semantiek van de website. Met CSS heb ik ervoor gezorgd dat de website een goede visuele hierarchie heeft door genoeg wit ruimtes te gebruiken en een goede kleuren combinatie te gebruiken in verband met de huisstijl van Vini Mini. De structuur van de website heb ik voor een groot gedeelte gemaakt door gebruik te maken van grid en flexbox. Uiteindelijk heb ik met Procreate op mijn IPad een klein design op basis van hun stylebook en vervolgens met Photoshop het omgezet, zodat ik het design kon gebruiken als achtergrond.
+Bij het maken van de website heb ik gebruik gemaakt van HTML en CSS. In HTML heb ik zoveel mogelijk rekening gehouden met de semantiek van de website. Met CSS heb ik ervoor gezorgd dat de website een goede visuele hierarchie heeft door genoeg wit ruimtes te gebruiken en een goede kleuren combinatie te gebruiken in verband met de huisstijl van Vini Mini. De structuur van de website heb ik voor een groot gedeelte gemaakt door gebruik te maken van grid en flexbox. Met JS heb ik ervoor gezorgd dat ik een modal box kon laten zien/maken zodra je op een section klikte. Uiteindelijk heb ik met Procreate op mijn IPad een klein design op basis van hun stylebook en vervolgens met Photoshop het omgezet, zodat ik het design kon gebruiken als achtergrond.
 
 * HTML
 * CSS
+* JS
 * Photoshop
 * IPad / Procreate
 
