@@ -42,7 +42,7 @@ body::after {
     position: relative;
     overflow: auto;
     background-color: transparent;
-    border-bottom: 1px solid var(--txt-color);
+    border-bottom: 2px solid var(--txt-color);
 }
 
 
