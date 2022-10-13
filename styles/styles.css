@@ -19,6 +19,7 @@ body {
     overflow-x: hidden;
 }
 
+
 /* Website achtergrond */
 body::after {
     content: "";
@@ -97,6 +98,10 @@ body::after {
     transition: .4s;
 }
 
+.navigation-items ul li a .fa-bars {
+    display: none;
+}
+
 .steps-advice {
     padding: 2rem;
     padding-top: 1.5rem;
@@ -124,7 +129,7 @@ body::after {
     transition: .7s;
 }
 
-.steps-advice section:hover{
+.steps-advice section:hover {
     transform: scale(1.03);
     transition: .7s;
 }
@@ -236,7 +241,7 @@ body::after {
     aspect-ratio: 2/1;
 }
 
-.modal-content i{
+.modal-content i {
     font-size: 2.5em;
     padding-left: 10px;
     padding-right: 10px;
@@ -263,7 +268,7 @@ body::after {
     z-index: 11;
 }
 
-.modal-content div{
+.modal-content div {
     width: 100%;
     height: 95%;
     position: relative;
@@ -273,34 +278,34 @@ body::after {
     flex-direction: row;
 }
 
-.modal-content div section{
+.modal-content div section {
     width: 50%;
     height: 100%;
 }
 
-.modal-content div section h2{
+.modal-content div section h2 {
     padding: 5rem 0px 0px 20px;
     font-size: 2em;
 }
 
-.modal-content div section p{
+.modal-content div section p {
     padding: 5px 0px 0px 20px;
 }
 
-.modal-content div section:first-child{
+.modal-content div section:first-child {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
 }
 
-.modal-content div section:nth-child(2){
+.modal-content div section:nth-child(2) {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.modal-content div section:nth-child(2) img{
+.modal-content div section:nth-child(2) img {
     width: 90%;
     height: auto;
 }
@@ -359,6 +364,28 @@ body::after {
     body::after {
         height: 153vh;
         background-size: cover;
+    }
+}
+
+@media (max-width: 850px) {
+
+    .navigation-items ul:nth-child(1),
+    .navigation-items ul:nth-child(2),
+    .navigation-items ul:nth-child(3),
+    .navigation-items ul:nth-child(4),
+    .navigation-items ul:nth-child(5),
+    .navigation-items ul:nth-child(6), 
+    .navigation-items ul:nth-child(7),
+    .navigation-items ul:nth-child(8) {
+        display: none;
+    }
+
+    .navigation-items ul li a .fa-bars {
+        display: block !important;
+        float: right;
+        width: auto;
+        font-size: 25px;
+        padding-right: 2rem;
     }
 }
 
