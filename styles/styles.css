@@ -35,6 +35,7 @@ body::after {
     right: 0;
     position: absolute;
     z-index: -1;
+    height: 120vh;
 }
 
 .navigation-bar {
@@ -321,7 +322,7 @@ body::after {
     }
 
     body::after {
-        height: 123vh;
+        height: 150vh;
         background-size: cover;
     }
 
@@ -362,7 +363,7 @@ body::after {
     }
 
     body::after {
-        height: 153vh;
+        height: 200vh;
         background-size: cover;
     }
 }
@@ -400,7 +401,7 @@ body::after {
 
     body::after {
         /* background: none; */
-        height: 215vh;
+        height: 255vh;
         background-position: center;
         background-size: cover;
     }
